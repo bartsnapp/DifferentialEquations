@@ -1,10 +1,12 @@
 #
 # version of Ximera xake container to use (with xmlatex)
 #
-# : "${XAKE_BASE:=xake2024}"
+#: "${XAKE_BASE:=xake2024}"
+: "${XAKE_BASE:=ximeralatex}"
 # : "${XAKE_VERSION:=v2.5-full}"
 ## Alternatives:
 # : "${XAKE_VERSION:=v2.4.2-full}"    # with texlive_full
+ : "${XAKE_VERSION:=v2.5.1}"    # with texlive_full
 
 #
 #
@@ -13,15 +15,15 @@
 #      via Codespaces: connect keys via GitHub Codespaces Secrets
 #      on your PC:     set environment variables, or edit .xmKeyFile
 # To generate a key-pair, fill in your name and email, and run 'xmlatex genKey'
-YOUR_NAME=""
-YOUR_EMAIL=""
+YOUR_NAME="Bart Snapp"
+YOUR_EMAIL="bart.snapp@gmail.com"
 # !! Do NEVER commit real keys to the repo !!
 # !! DO NEVER SAVE THE KEYS THEMSELVE IN THIS FILE   !!
 #
 
-## : "${XIMERA_NAME:=myreponame}"
+: "${XIMERA_NAME:=differentialequations}"
 ## : "${XIMERA_URL:=http://localhost:2000/}"
-## : "${XIMERA_URL:=https://ximera.osu.edu}"
+ : "${XIMERA_URL:=https://ximera.osu.edu/}"
 ## : "${XIMERA_URL:=https://set-p-dsb-zomercursus-latest.cloud-ext.icts.kuleuven.be/}"
 ## : "${XIMERA_URL:=https://set.kuleuven.be/voorkennis/}"
 
